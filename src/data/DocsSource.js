@@ -72,6 +72,7 @@ export default class DocsSource {
   }
 
   fetchDocs(tag) {
+    console.log(tag);
     return fetch(`https://raw.githubusercontent.com/iShibi/experiments/main/docs.json`).then(json);
   }
 }
