@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"extends": ["marine/prettier/vue", "marine/prettier/node"],
+	"parserOptions": {
+		"project": "./tsconfig.eslint.json"
+	},
+	"env": {
+		"jest": true
+	},
+	"rules": {
+		"@typescript-eslint/naming-convention": 0,
+		"@typescript-eslint/restrict-template-expressions": 0,
+		"no-case-declarations": 0,
+		"spaced-comment": 0,
+		"vue/no-multiple-template-root": 0
+	}
+}

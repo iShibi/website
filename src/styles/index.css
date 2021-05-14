@@ -1,0 +1,25 @@
+@tailwind base;
+
+html, body {
+	height: 100%;
+}
+
+img {
+	display: inline-block;
+	margin: 0 !important;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.noprose {
+	margin: 0 !important;
+}
+
+.noprose p {
+	margin: 0 !important;
+}
+
+.noprose li {
+	margin: 0 !important;
+}
